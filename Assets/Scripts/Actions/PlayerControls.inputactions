@@ -1,0 +1,54 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ff0b84d8-104b-4db6-9222-4b228267cbf7",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "c7e30c25-9f60-493c-908c-ad08a2b70a7f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StartStopEngine",
+                    "type": "Button",
+                    "id": "8e47e8a8-9b58-4f6a-b4ba-e527a42997d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "704383a8-7d4d-4ecb-ad2c-12070e8b6c3c",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c37276ba-0f68-47dc-9e85-0bc9192af026",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartStopEngine",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
